@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { HamburgerMenuIcon } from '@radix-ui/react-icons';
 import { Sheet, SheetTrigger, SheetContent } from '@/components/ui/sheet';
@@ -22,7 +21,7 @@ const NavbarLinkOptions: React.FC = () => {
     );
 };
 
-interface NavbarProps {}
+interface NavbarProps { }
 
 const Navbar: React.FC<NavbarProps> = () => {
     return (

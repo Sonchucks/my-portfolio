@@ -37,7 +37,7 @@ export const projects: Project[] = [
         title: 'Round Robin Tournament Manager',
         description:
             'Small project to tryout NextJS and complemetary libraries. Create a round robin tournament and view/update matches for each round. Also has a view for team standings.',
-        technologies: ['NextJS', 'TailwindCSS', 'SQLite', 'Prisma'],
+        technologies: ['NextJS', 'TailwindCSS', 'Prisma', 'SQLite'],
         codeRepoUrl: 'https://github.com/Sonchucks/nextjs-test-project',
     },
 ];
