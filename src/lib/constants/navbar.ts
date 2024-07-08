@@ -1,4 +1,4 @@
-import { NavbarLink } from "@/types/navbarTypes";
+import { NavbarLink } from '@/types/navbarTypes';
 
 export const navLinkOptions: NavbarLink[] = [
     {
@@ -13,4 +13,4 @@ export const navLinkOptions: NavbarLink[] = [
         label: 'Education',
         path: '#education',
     },
-]
+];

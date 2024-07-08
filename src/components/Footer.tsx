@@ -1,18 +1,18 @@
 import * as React from 'react';
 import Link from 'next/link';
 
-interface FooterProps { };
+interface FooterProps {}
 
 const Footer: React.FC<FooterProps> = () => {
     return (
-        <footer className='py-4 container border-t mt-20'>
-            <p className='text-sm text-gray-400 text-center'>
-                <Link href="/" className='ml-1 text-primary'>
+        <footer className='container mt-20 border-t py-4'>
+            <p className='text-center text-sm text-gray-400'>
+                <Link href='/' className='ml-1 text-primary'>
                     Sonchucks
                 </Link>
             </p>
         </footer>
-    )
+    );
 };
 
 export default Footer;

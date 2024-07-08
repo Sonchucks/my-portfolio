@@ -5,7 +5,7 @@ export interface ProjectOrContract {
     role: string;
     startDate: string;
     endDate: string;
-    keyResponsibilities: string[]
+    keyResponsibilities: string[];
 }
 
 export interface WorkExperience {
@@ -17,5 +17,5 @@ export interface WorkExperience {
     endDate?: string;
     technologies?: string[];
     keyResponsibilities?: string[];
-    projectsAndContracts?: ProjectOrContract[]
+    projectsAndContracts?: ProjectOrContract[];
 }
