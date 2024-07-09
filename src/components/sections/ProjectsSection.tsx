@@ -15,7 +15,7 @@ import {
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 
-interface ProjectsSectionProps {}
+interface ProjectsSectionProps { }
 
 const ProjectsSection: React.FC<ProjectsSectionProps> = () => {
     return (
@@ -54,9 +54,9 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = () => {
                             className={cn(
                                 'w-full',
                                 project.cover &&
-                                    (index % 2 === 0
-                                        ? 'lg:order-2 lg:w-2/3'
-                                        : 'Lg:order-1 lg:w-2/3')
+                                (index % 2 === 0
+                                    ? 'lg:order-2 lg:w-2/3'
+                                    : 'Lg:order-1 lg:w-2/3')
                             )}
                         >
                             <CardHeader>
